@@ -1,0 +1,64 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/item_frame"
+  },
+  "overrides":[
+    {
+      "predicate":
+      {
+        "custom_model_data":1
+      },
+      "model":"item/minecart_placed"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":2
+      },
+      "model":"item/grass_block_slab"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":3
+      },
+      "model":"item/small_chest"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":4
+      },
+      "model":"item/Cobblestone_Ball"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":5
+      },
+      "model":"item/BasePlate"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":6
+      },
+      "model":"item/Wooden_BasePlate"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":7
+      },
+      "model":"item/Wool_Stairs"
+    },
+    {
+      "predicate":
+      {
+        "custom_model_data":8
+      },
+      "model":"item/spruce_ad_fence"
+    }
+  ]
+}
